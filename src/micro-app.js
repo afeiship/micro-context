@@ -39,7 +39,9 @@ export default class extends React.Component {
     this.setState({ memory });
   }
 
-  getApp() {}
+  getApp() {
+    console.error('MUST BE IMPLEMENT!');
+  }
 
   render() {
     const { memory } = this.state;
