@@ -14,6 +14,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.7.0",
     "@babel/core": "^7.4.4",
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.4.4",
@@ -22,6 +23,7 @@
   "dependencies": {
     "event-mitt": "github:afeiship/event-mitt",
     "lodash": "^4.17.15",
+    "rake-git": "github:afeiship/rake-git",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   }
